@@ -1,4 +1,5 @@
 FROM python:3.6-alpine
+ENV PYTHONUNBUFFERED 1
 
 # -- Install Application into container:
 RUN set -ex && mkdir /code
